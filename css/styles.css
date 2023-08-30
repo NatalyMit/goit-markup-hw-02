@@ -1,4 +1,4 @@
-.header-bg {
+:root .header-bg {
   background-color: #e7e9fc;
 }
 .logo_first {
@@ -7,18 +7,21 @@
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #4d5ae5;
+  color: #2e2f42;
   text-transform: uppercase;
 }
 
 .logo_second {
-  color: #2e2f42;
+  color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.address-style {
+  font-style: normal;
 }
 
 a {
@@ -50,7 +53,7 @@ body {
   text-decoration: underline;
 }
 
-.header_adress {
+.header_address {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -58,29 +61,28 @@ body {
   letter-spacing: 0.02em;
 }
 
-.header_adress:hover,
-.header_adress:focus {
+.header_address:hover,
+.header_address:focus {
   color: #404bbf;
 }
-h1 {
+.title-list {
   font-size: 56px;
   font-weight: 700;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
-h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.1;
-  text-align: center;
-}
-h3 {
+.plan_section {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
+.text_section {
+  color: #434455;
+  letter-spacing: 0.02em;
+}
 .hero-section {
   background-color: #2e2f42;
   color: #ffffff;
@@ -95,6 +97,7 @@ h3 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .hero-button:hover,
@@ -105,8 +108,28 @@ h3 {
   background-color: #f4f4fd;
 }
 
+.second-title {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team-specialists {
+  background-color: #ffffff;
+}
+
 .portfolio-section {
   background-color: #e7e9fc;
+}
+
+.names {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .footer-section {
@@ -122,6 +145,7 @@ h3 {
   line-height: 1.17;
   color: #4d5ae5;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .footer-logo-two {
   font-family: 'Raleway', sans-serif;
@@ -130,4 +154,8 @@ h3 {
   line-height: 1.17;
   color: #f4f4fd;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.footer-text {
+  color: #f4f4fd;
 }
